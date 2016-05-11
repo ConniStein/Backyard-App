@@ -1,5 +1,160 @@
-logo-header
+/*SCSS STYLES*/
+
+$padding-bottom:20px;
+$border-gray:1px solid #C6C6C6;
+$gray-text:#737373;
+
+.container-fluid{
+	background-color: #FFF;
+		.navbar navbar-default{
+			margin:0xp 60px 0px 60px;;
+		}
+
+}
+
+.logo-header{
 	width: 50%;
 	height: 50%;
 	padding: 10px 0px 10px 50px;
 	margin-left: 100px;
+	margin-bottom:0px;
+		.navbar-default{
+			margin-bottom:-20px;
+		}
+}
+
+/*SLIDER*/
+
+.background-slider {
+	background-image: url(../images/1920x665-1.jpg);
+	background-size:cover;
+	color:white;
+	height:400px;
+	margin:0px 60px;
+	background-color: rgba(40, 40, 255, 0.8);
+	padding-top:50px;
+		h1{
+			padding-bottom:$padding-bottom;
+		}
+		p{
+			padding-bottom:$padding-bottom;
+		}
+		.btn{
+			border-radius:20px;
+			font-weight:bold;
+			padding:10px 20px;
+			margin-right:10px;
+				.btn-default{
+					color:#5BC0DE;
+					border-color:#5BC0DE;
+				}
+		}
+		.icons-slider{
+			display:inline-block;
+		}
+
+}
+
+/*FIRST SECTION*/
+
+.firstsection-container{
+	padding:60px;
+	margin:60px;
+	border-top:1px solid #C6C6C6;
+	border-left:1px solid #C6C6C6;
+		.first-section{
+			width:100%;
+			height:100%;
+		}
+		.firstsection-text{
+			width:45%;
+			height:90%;
+			display:inline;
+			color:$gray-text;
+
+			}
+
+		.blue-text{
+			color: #5BC0DE;
+			display:inline-block;
+			font-weight:bold;
+		}
+		p{
+			display:inline-block;
+		}
+		.btn{
+			border-radius:20px;
+			font-weight:bold;
+			padding:10px 20px;
+			margin-right:10px;
+			color:#5BC0DE;
+			border-color:#5BC0DE;
+			display:block;
+			margin:15px 15px 15px 0px;
+		}
+}
+
+/*SECOND SECTION*/
+.secondsection-container{
+	background-color:#F6F6F6;
+	border-left:$border-gray;
+	margin:0px 60px;
+	padding:30px 20px 20px 60px;
+		h3 {
+			color:$gray-text;
+			text-align:center;
+		}
+		p{
+			color:$gray-text;
+			text-align:center;
+			padding-bottom:30px;
+		}
+		.second-section{
+			width:70%;
+			height:70%;
+			margin-left:0px;
+		}
+		.secondsection-text{
+			width:45%;
+			height:90%;
+			display:inline;
+			color:$gray-text;
+				h5{
+					font-weight:bold;
+					text-align:left;
+				}
+				p{
+					text-align:left;
+					font-size:12px;
+				}
+		}
+}
+
+/*FOOTER*/
+.footer-container{
+	padding:30px;
+	text-align:center;
+		.btn{
+			border-radius:20px;
+			font-weight:bold;
+			padding:5px 8px;
+			margin-right:10px;
+			color:#5BC0DE;
+			border-color:#5BC0DE;
+			display:inline-block;
+			margin:15px 15px 15px 0px;
+		}
+		p{
+			color:$gray-text;
+			display:inline;
+		}
+		.blue-text{
+			color:#5BC0DE;
+			font-weight:bold;
+			display:inline-block;
+		}
+}
+
+
+
+
